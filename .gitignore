@@ -1,0 +1,64 @@
+
+# Binaries
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+*.vscode/
+.vscode/
+*.sln.iml
+.vs/
+
+# Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+*.paket/paket-files/
+*.paket/paket.lock
+*.pak
+*.bak
+*.cache
+
+# Visual Studio 2017/2019 project files
+/.vscode/
+*.suo
+*.sln
+*.csproj
+*.csproj.user
+*.sln.docstates
+/.vs/
