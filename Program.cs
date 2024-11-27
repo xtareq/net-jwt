@@ -5,15 +5,12 @@ using njwt.Utils;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddCors();
 builder.Services.AddControllers();
 
 builder.Services.Configure<AppSetting>(builder.Configuration.GetSection("JWT"));
 
 // configure DI for application Services
-
-
 builder.Services.AddScoped<IJwtUtils, JwtUtils>();
 builder.Services.AddScoped<IHashUtils, HashUtils>();
 builder.Services.AddScoped<IUserService, UserService>();
@@ -34,7 +31,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 //app.UseAuthorization();
-
 app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
 app.UseMiddleware<JwtMiddleware>();
