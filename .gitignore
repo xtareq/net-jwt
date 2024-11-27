@@ -58,7 +58,6 @@ _ReSharper*/
 /.vscode/
 *.suo
 *.sln
-*.csproj
 *.csproj.user
 *.sln.docstates
 /.vs/
