@@ -33,7 +33,7 @@ public class AuthController : ControllerBase
     public IActionResult GetProfile()
     {
         var user = HttpContext.Items["User"] as User;
-
+        // get account
         return Ok(user);
     }
 }
