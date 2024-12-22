@@ -1,5 +1,6 @@
 # ASP.NET Core Custom JWT Authentication(Without Identity)
 ![Build](https://github.com/xtareq/net-jwt/actions/workflows/dotnet.yml/badge.svg)
+
 This project demonstrates how to set up and use JWT (JSON Web Token) authentication in an ASP.NET Core application. The project is compatible with both .NET 7 and .NET 8, with package references provided for each version.
 
 ## Features
