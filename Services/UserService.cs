@@ -13,8 +13,8 @@ public interface IUserService
 public class UserService : IUserService
 {
     private List<User> _users = new List<User>{
-      new User{Id=1,Name="Tareq",Username="tareq123",Password="$2a$12$3idBuJES8UHPEwrSqnhhUeCCRp1JYWS6ABIwJf26goMGxXBw/IQiq", Role="Admin"},
-      new User{Id=2,Name="Sorna",Username="sorna123",Password="$2a$12$3idBuJES8UHPEwrSqnhhUeCCRp1JYWS6ABIwJf26goMGxXBw/IQiq", Role="User"},
+      new User{Id=1,Name="John Doe",Username="john123",Password="$2a$12$3idBuJES8UHPEwrSqnhhUeCCRp1JYWS6ABIwJf26goMGxXBw/IQiq", Role="Admin"},
+      new User{Id=2,Name="Sam Altman",Username="altman123",Password="$2a$12$3idBuJES8UHPEwrSqnhhUeCCRp1JYWS6ABIwJf26goMGxXBw/IQiq", Role="User"},
     };
 
     private readonly IJwtUtils _jwtUtils;
